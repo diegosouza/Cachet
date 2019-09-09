@@ -39,7 +39,7 @@
         "guzzlehttp/guzzle": "6.3.3",
         "guzzlehttp/psr7": "1.4.2",
         "jenssegers/date": "^3.2",
-        "laravel/framework": "5.2.39",
+        "laravel/framework": "5.2.42",
         "mccool/laravel-auto-presenter": "^4.3",
         "pragmarx/google2fa": "^0.7.1",
         "predis/predis": "^1.1",

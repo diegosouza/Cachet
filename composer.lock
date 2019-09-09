@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac24638c1577513040a7ebb06b2f60bd",
+    "content-hash": "24e499701b54d6debc1eadc9a0ac122a",
     "packages": [
         {
             "name": "alt-three/badger",
@@ -495,9 +495,9 @@
             },
             "require": {
                 "backup-manager/backup-manager": "^1.0",
-                "illuminate/console": "^4.0||^5.0",
-                "illuminate/container": "^4.0||^5.0",
-                "illuminate/support": "^4.0||^5.0",
+                "illuminate/console": "^4.0||^5.0||^6.0",
+                "illuminate/container": "^4.0||^5.0||^6.0",
+                "illuminate/support": "^4.0||^5.0||^6.0",
                 "php": ">=5.5.0",
                 "symfony/process": "^2.0||^3.0||^4.0"
             },
@@ -538,7 +538,7 @@
                 }
             ],
             "description": "Database backup manager seamlessly integrated with Laravel 4 or 5 with user-definable procedures and support for S3, Dropbox, FTP, SFTP, and more.",
-            "time": "2018-12-30T12:30:58+00:00"
+            "time": "2019-09-06T17:29:02+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -577,9 +577,9 @@
             "authors": [
                 {
                     "name": "Ben Scholzen 'DASPRiD'",
+                    "role": "Developer",
                     "email": "mail@dasprids.de",
-                    "homepage": "http://www.dasprids.de",
-                    "role": "Developer"
+                    "homepage": "http://www.dasprids.de"
                 }
             ],
             "description": "BaconQrCode is a QR code generator for PHP.",
@@ -679,9 +679,9 @@
             "authors": [
                 {
                     "name": "Christian Riesen",
+                    "role": "Developer",
                     "email": "chris.riesen@gmail.com",
-                    "homepage": "http://christianriesen.com",
-                    "role": "Developer"
+                    "homepage": "http://christianriesen.com"
                 }
             ],
             "description": "Base32 encoder/decoder according to RFC 4648",
@@ -2004,7 +2004,7 @@
             "time": "2018-03-01T09:51:53+00:00"
         },
         {
-            "name": "jeremeamia/SuperClosure",
+            "name": "jeremeamia/superclosure",
             "version": "2.4.0",
             "source": {
                 "type": "git",
@@ -2063,16 +2063,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.2.39",
+            "version": "v5.2.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c2a77050269b4e03bd9a735a9f24e573a7598b8a"
+                "reference": "d1bf46f359d2ede2d4ef847fb79d3758d868f2b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c2a77050269b4e03bd9a735a9f24e573a7598b8a",
-                "reference": "c2a77050269b4e03bd9a735a9f24e573a7598b8a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/d1bf46f359d2ede2d4ef847fb79d3758d868f2b7",
+                "reference": "d1bf46f359d2ede2d4ef847fb79d3758d868f2b7",
                 "shasum": ""
             },
             "require": {
@@ -2129,7 +2129,8 @@
                 "illuminate/support": "self.version",
                 "illuminate/translation": "self.version",
                 "illuminate/validation": "self.version",
-                "illuminate/view": "self.version"
+                "illuminate/view": "self.version",
+                "tightenco/collect": "self.version"
             },
             "require-dev": {
                 "aws/aws-sdk-php": "~3.0",
@@ -2188,7 +2189,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-06-17T19:25:12+00:00"
+            "time": "2016-08-08T13:39:44+00:00"
         },
         {
             "name": "league/commonmark",
@@ -2245,9 +2246,9 @@
             "authors": [
                 {
                     "name": "Colin O'Dell",
+                    "role": "Lead Developer",
                     "email": "colinodell@gmail.com",
-                    "homepage": "https://www.colinodell.com",
-                    "role": "Lead Developer"
+                    "homepage": "https://www.colinodell.com"
                 }
             ],
             "description": "Markdown parser for PHP based on the CommonMark spec",
@@ -2780,8 +2781,8 @@
             "authors": [
                 {
                     "name": "Antonio Carlos Ribeiro",
-                    "email": "acr@antoniocarlosribeiro.com",
-                    "role": "Creator & Designer"
+                    "role": "Creator & Designer",
+                    "email": "acr@antoniocarlosribeiro.com"
                 }
             ],
             "description": "A One Time Password Authentication package, compatible with Google Authenticator.",
